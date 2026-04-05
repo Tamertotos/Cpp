@@ -1,0 +1,3 @@
+C:/Users/savac/Cpp/TASK-03/cmake-build-debug/CMakeFiles/TASK_03.dir
+C:/Users/savac/Cpp/TASK-03/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/savac/Cpp/TASK-03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
