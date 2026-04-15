@@ -1,3 +1,0 @@
-C:/Users/savac/Cpp/MigratingJavaCodeToCpp/cmake-build-debug/CMakeFiles/MigratingJavaCodeToCpp.dir
-C:/Users/savac/Cpp/MigratingJavaCodeToCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/savac/Cpp/MigratingJavaCodeToCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
