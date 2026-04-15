@@ -1,0 +1,3 @@
+C:/Users/savac/Cpp/BasicStringOperations/cmake-build-debug/CMakeFiles/BasicStringOperations.dir
+C:/Users/savac/Cpp/BasicStringOperations/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/savac/Cpp/BasicStringOperations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
