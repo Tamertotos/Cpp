@@ -1,42 +1,26 @@
-#include <iostream>
+#include <string>
 #include <vector>
+#include <fmt/ranges.h>
 #include <algorithm>
-#include <ranges>
 
 
-int main() {
-    auto vec = std::vector<int>();
-    std::cout << "Enter 7 integer numbers!";
 
+auto eliminate(std::vector<int>& x) -> void;
 
-    while (vec.size() < 7) {
-        auto numbers = int();
-        std::cin >> numbers;
-        vec.push_back(numbers);
-    }
-
-    std::ranges::sort(vec);
-
-    std::cout << "[";
-    for (int i = 0; i < vec.size() ; i++) {
-        std::cout << vec[i];
-        if (i < vec.size() - 1) {
-            std::cout << ", ";
-        }
-    }
-    std::cout << "]\n";
-
-    std::cout << "erasing the first and the last item\n";
-    vec.erase(vec.begin());
-    vec.erase(vec.end() - 1);
-
-    std::cout << "[";
-    for (int i = 0; i < vec.size() ; i++) {
-        std::cout << vec[i];
-        if (i < vec.size() - 1) {
-            std::cout << ", ";
-        }
-    }
-    std::cout << "]";
-
+auto main() -> int {
+    auto  vec = std::vector<int>{7,4,9,11,8};
+    eliminate(vec);
 }
+
+
+auto eliminate(std::vector<int>& x) -> void {
+    auto max_elem = std::ranges::max_element(x);
+    auto min_elem = std::ranges::min_element(x);
+
+    x.erase(max_elem);
+    x.erase(min_elem);
+
+    fmt::println("{}", x);
+}
+
+
